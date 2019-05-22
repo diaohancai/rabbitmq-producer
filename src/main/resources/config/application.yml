@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  rabbitmq:
+    host: 192.168.7.3
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /diao
+    publisher-confirms: true  # confirm 机制
+    publisher-returns: true   # return 机制
